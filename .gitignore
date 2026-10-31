@@ -1,0 +1,29 @@
+# Arduino / PlatformIO Gitignore
+
+# Compiled binaries
+*.hex
+*.elf
+*.bin
+*.out
+*.map
+
+# Build directories
+build/
+bin/
+out/
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Arduino temporary files
+*.board
+*.port
